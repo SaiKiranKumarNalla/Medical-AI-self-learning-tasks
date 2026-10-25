@@ -2,6 +2,10 @@
 
 An AI-assisted learning study of image classification, loss functions and residual networks. The learner directed questions and interpreted experiments; AI assisted implementation and explanations. This is an exploratory tutorial, not a clinically validated diagnostic tool or a confirmed exact paper replication.
 
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SaiKiranKumarNalla/Medical-AI-self-learning-tasks/blob/main/pneumoniamnist/pneumoniamnist_study.ipynb)
+
+The notebook is a corrected, unexecuted teaching workflow. Training and final test evaluation are opt-in. Historical results are recorded separately below.
+
 ## What this project teaches
 - Dataset inspection, class imbalance, tensors and Python OOP.
 - A small-image ResNet-18 and a plain network without residual shortcuts.
