@@ -1,0 +1,89 @@
+{
+  "device": "cpu",
+  "status": "post-hoc checkpoint evaluation, not retraining",
+  "models": {
+    "baseline": {
+      "auc": 0.9480276134122289,
+      "accuracy": 0.8461538461538461,
+      "sensitivity": 0.9897435897435898,
+      "specificity": 0.6068376068376068,
+      "tn": 142,
+      "fp": 92,
+      "fn": 4,
+      "tp": 386,
+      "parameters": 11168706,
+      "checkpoint_sha256": "58f0dfdbd6cfcd041a04198247d0e4ba64a3efbe0837edb5e6b966f2241be7cf"
+    },
+    "weighted": {
+      "auc": 0.9551062897216743,
+      "accuracy": 0.8798076923076923,
+      "sensitivity": 0.9923076923076923,
+      "specificity": 0.6923076923076923,
+      "tn": 162,
+      "fp": 72,
+      "fn": 3,
+      "tp": 387,
+      "parameters": 11168706,
+      "checkpoint_sha256": "3428ec1d545b9d66bfb614aac07ee4187f59b667000362203d3c2409c02da6ad"
+    },
+    "focal": {
+      "auc": 0.951051939513478,
+      "accuracy": 0.8910256410256411,
+      "sensitivity": 0.9487179487179487,
+      "specificity": 0.7948717948717948,
+      "tn": 186,
+      "fp": 48,
+      "fn": 20,
+      "tp": 370,
+      "parameters": 11168706,
+      "checkpoint_sha256": "4acffd6b1534a33c46df4f3608872344e601835f21b2822ecf9cc0a1d784f3ec"
+    },
+    "plain": {
+      "auc": 0.9674884944115714,
+      "accuracy": 0.8990384615384616,
+      "sensitivity": 0.9846153846153847,
+      "specificity": 0.7564102564102564,
+      "tn": 177,
+      "fp": 57,
+      "fn": 6,
+      "tp": 384,
+      "parameters": 10994882,
+      "checkpoint_sha256": "cd60b9c6d9bd4cc4ac1adf3d3d1169a55266a91d7f439bbb5a8370265ac6456f"
+    }
+  },
+  "duplicate_image_hashes": {
+    "train_val": 8,
+    "train_test": 0,
+    "val_test": 0
+  },
+  "gradcam_examples": [
+    {
+      "category": "TP",
+      "test_index": 0,
+      "target": 1,
+      "prediction": 1,
+      "cam_max_before_normalization": 1.349406123161316
+    },
+    {
+      "category": "TN",
+      "test_index": 3,
+      "target": 0,
+      "prediction": 0,
+      "cam_max_before_normalization": 0.0
+    },
+    {
+      "category": "FP",
+      "test_index": 1,
+      "target": 0,
+      "prediction": 1,
+      "cam_max_before_normalization": 0.5325332880020142
+    },
+    {
+      "category": "FN",
+      "test_index": 381,
+      "target": 1,
+      "prediction": 0,
+      "cam_max_before_normalization": 0.2287828028202057
+    }
+  ]
+}

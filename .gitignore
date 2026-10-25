@@ -1,0 +1,7 @@
+**/*[Cc][Oo][Nn][Vv][Ee][Rr][Ss][Aa][Tt][Ii][Oo][Nn]*
+**/data/
+**/checkpoints/
+**/runs/
+**/__pycache__/
+*.pyc
+.DS_Store
